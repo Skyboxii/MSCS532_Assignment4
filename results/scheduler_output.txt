@@ -1,0 +1,7 @@
+5,000 tasks, load 0.9 (times in time units)
+policy          avg wait      p95  max wait   miss %    low max    high avg   incr_keys
+FIFO                28.9     98.3     168.1     45.9      167.3        28.8           0
+Priority            28.5    133.5     936.0     26.2      936.0         4.0           0
+Priority+Aging      28.7    130.5     229.5     35.8      229.5         6.8        4451
+EDF                 24.6     95.9     193.3     34.2      171.2        24.6           0
+Results written to results
