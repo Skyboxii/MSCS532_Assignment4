@@ -1,0 +1,5 @@
+algorithm,n,peak_bytes,extra_bytes_over_copy,bytes_per_element
+Heapsort,100000,800276,220,8.0
+Merge Sort,100000,1600248,800192,16.0
+Randomized Quicksort,100000,804136,4080,8.04
+Python sorted(),100000,1199904,399848,12.0

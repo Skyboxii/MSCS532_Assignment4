@@ -1,0 +1,121 @@
+algorithm,dataset,n,time_ms,comparisons,cmp_per_nlgn,ns_per_nlgn
+Heapsort,random,1000,0.915,16904,1.696,91.84
+Merge Sort,random,1000,0.877,8704,0.873,87.98
+Randomized Quicksort,random,1000,0.916,19528,1.96,91.91
+Python sorted(),random,1000,0.04,,,3.99
+Heapsort,random,5000,5.77,107713,1.753,93.92
+Merge Sort,random,5000,5.338,55227,0.899,86.88
+Randomized Quicksort,random,5000,5.486,116974,1.904,89.29
+Python sorted(),random,5000,0.307,,,5.0
+Heapsort,random,10000,12.672,235312,1.771,95.37
+Merge Sort,random,10000,11.522,120398,0.906,86.71
+Randomized Quicksort,random,10000,12.762,248731,1.872,96.05
+Python sorted(),random,10000,0.688,,,5.18
+Heapsort,random,25000,35.626,654795,1.793,97.54
+Merge Sort,random,25000,33.189,334111,0.915,90.87
+Randomized Quicksort,random,25000,32.296,673073,1.843,88.42
+Python sorted(),random,25000,2.167,,,5.93
+Heapsort,random,50000,75.319,1409431,1.806,96.5
+Merge Sort,random,50000,69.614,718109,0.92,89.19
+Randomized Quicksort,random,50000,71.211,1549669,1.986,91.24
+Python sorted(),random,50000,4.224,,,5.41
+Heapsort,random,100000,172.443,3019603,1.818,103.82
+Merge Sort,random,100000,146.725,1536206,0.925,88.34
+Randomized Quicksort,random,100000,147.394,3138166,1.889,88.74
+Python sorted(),random,100000,11.398,,,6.86
+Heapsort,sorted,1000,0.957,17583,1.764,96.04
+Merge Sort,sorted,1000,0.721,5044,0.506,72.39
+Randomized Quicksort,sorted,1000,0.86,18038,1.81,86.3
+Python sorted(),sorted,1000,0.003,,,0.28
+Heapsort,sorted,5000,5.977,112126,1.825,97.28
+Merge Sort,sorted,5000,4.41,32004,0.521,71.78
+Randomized Quicksort,sorted,5000,5.154,113945,1.855,83.88
+Python sorted(),sorted,5000,0.014,,,0.22
+Heapsort,sorted,10000,13.027,244460,1.84,98.04
+Merge Sort,sorted,10000,9.57,69008,0.519,72.02
+Randomized Quicksort,sorted,10000,11.301,248101,1.867,85.05
+Python sorted(),sorted,10000,0.028,,,0.21
+Heapsort,sorted,25000,35.351,677688,1.855,96.79
+Merge Sort,sorted,25000,25.482,188476,0.516,69.77
+Randomized Quicksort,sorted,25000,30.178,696825,1.908,82.62
+Python sorted(),sorted,25000,0.069,,,0.19
+Heapsort,sorted,50000,76.178,1455438,1.865,97.6
+Merge Sort,sorted,50000,53.846,401952,0.515,68.99
+Randomized Quicksort,sorted,50000,62.723,1431205,1.834,80.36
+Python sorted(),sorted,50000,0.144,,,0.19
+Heapsort,sorted,100000,159.973,3112517,1.874,96.31
+Merge Sort,sorted,100000,113.042,853904,0.514,68.06
+Randomized Quicksort,sorted,100000,130.7,3131077,1.885,78.69
+Python sorted(),sorted,100000,0.301,,,0.18
+Heapsort,reverse,1000,0.836,15965,1.602,83.89
+Merge Sort,reverse,1000,0.739,4932,0.495,74.15
+Randomized Quicksort,reverse,1000,0.879,18244,1.831,88.2
+Python sorted(),reverse,1000,0.003,,,0.32
+Heapsort,reverse,5000,5.33,103227,1.68,86.75
+Merge Sort,reverse,5000,4.295,29804,0.485,69.91
+Randomized Quicksort,reverse,5000,5.107,114235,1.859,83.12
+Python sorted(),reverse,5000,0.016,,,0.25
+Heapsort,reverse,10000,11.612,226682,1.706,87.39
+Merge Sort,reverse,10000,9.437,64608,0.486,71.02
+Randomized Quicksort,reverse,10000,10.926,241285,1.816,82.23
+Python sorted(),reverse,10000,0.033,,,0.25
+Heapsort,reverse,25000,32.167,633719,1.735,88.07
+Merge Sort,reverse,25000,25.138,178756,0.489,68.83
+Randomized Quicksort,reverse,25000,29.758,667143,1.827,81.48
+Python sorted(),reverse,25000,0.077,,,0.21
+Heapsort,reverse,50000,68.64,1366047,1.75,87.95
+Merge Sort,reverse,50000,53.637,382512,0.49,68.72
+Randomized Quicksort,reverse,50000,61.187,1414641,1.813,78.4
+Python sorted(),reverse,50000,0.158,,,0.2
+Heapsort,reverse,100000,149.105,2926640,1.762,89.77
+Merge Sort,reverse,100000,112.504,815024,0.491,67.73
+Randomized Quicksort,reverse,100000,130.822,3047218,1.835,78.76
+Python sorted(),reverse,100000,0.337,,,0.2
+Heapsort,repeated,1000,0.826,15802,1.586,82.93
+Merge Sort,repeated,1000,0.843,8464,0.849,84.63
+Randomized Quicksort,repeated,1000,0.159,4762,0.478,15.96
+Python sorted(),repeated,1000,0.028,,,2.85
+Heapsort,repeated,5000,5.193,100300,1.633,84.52
+Merge Sort,repeated,5000,5.101,53706,0.874,83.03
+Randomized Quicksort,repeated,5000,0.771,23450,0.382,12.55
+Python sorted(),repeated,5000,0.177,,,2.88
+Heapsort,repeated,10000,11.305,217882,1.64,85.08
+Merge Sort,repeated,10000,10.819,116644,0.878,81.42
+Randomized Quicksort,repeated,10000,1.791,62028,0.467,13.48
+Python sorted(),repeated,10000,0.371,,,2.79
+Heapsort,repeated,25000,31.241,602636,1.65,85.53
+Merge Sort,repeated,25000,29.274,323089,0.885,80.15
+Randomized Quicksort,repeated,25000,4.217,142265,0.39,11.55
+Python sorted(),repeated,25000,0.965,,,2.64
+Heapsort,repeated,50000,66.66,1294440,1.659,85.41
+Merge Sort,repeated,50000,61.378,694241,0.89,78.64
+Randomized Quicksort,repeated,50000,7.616,249809,0.32,9.76
+Python sorted(),repeated,50000,1.952,,,2.5
+Heapsort,repeated,100000,140.771,2766786,1.666,84.75
+Merge Sort,repeated,100000,130.759,1483116,0.893,78.72
+Randomized Quicksort,repeated,100000,16.361,519772,0.313,9.85
+Python sorted(),repeated,100000,4.035,,,2.43
+Heapsort,all equal,1000,0.153,2994,0.3,15.36
+Merge Sort,all equal,1000,0.73,5044,0.506,73.25
+Randomized Quicksort,all equal,1000,0.039,2000,0.201,3.88
+Python sorted(),all equal,1000,0.002,,,0.24
+Heapsort,all equal,5000,0.765,14994,0.244,12.45
+Merge Sort,all equal,5000,4.336,32004,0.521,70.57
+Randomized Quicksort,all equal,5000,0.165,10000,0.163,2.69
+Python sorted(),all equal,5000,0.011,,,0.18
+Heapsort,all equal,10000,1.533,29994,0.226,11.54
+Merge Sort,all equal,10000,9.269,69008,0.519,69.75
+Randomized Quicksort,all equal,10000,0.328,20000,0.151,2.46
+Python sorted(),all equal,10000,0.021,,,0.16
+Heapsort,all equal,25000,3.85,74994,0.205,10.54
+Merge Sort,all equal,25000,25.042,188476,0.516,68.56
+Randomized Quicksort,all equal,25000,0.834,50000,0.137,2.28
+Python sorted(),all equal,25000,0.053,,,0.15
+Heapsort,all equal,50000,8.05,149994,0.192,10.31
+Merge Sort,all equal,50000,53.154,401952,0.515,68.1
+Randomized Quicksort,all equal,50000,1.631,100000,0.128,2.09
+Python sorted(),all equal,50000,0.107,,,0.14
+Heapsort,all equal,100000,15.507,299994,0.181,9.34
+Merge Sort,all equal,100000,111.733,853904,0.514,67.27
+Randomized Quicksort,all equal,100000,3.283,200000,0.12,1.98
+Python sorted(),all equal,100000,0.217,,,0.13

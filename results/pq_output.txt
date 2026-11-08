@@ -1,0 +1,7 @@
+power throttling disabled: True
+n=   1000 lg n= 9.97  insert 0.76 us (1.31 swaps)  insert-max 3.25 us (10.46 swaps)  extract 4.46 us (9.46 swaps)  increase-key 1.08 us (1.12 swaps)  build 0.55 ms vs inserts 1.15 ms
+n=   4000 lg n=11.97  insert 0.76 us (1.24 swaps)  insert-max 3.76 us (11.95 swaps)  extract 5.18 us (10.95 swaps)  increase-key 1.41 us (1.97 swaps)  build 2.05 ms vs inserts 4.33 ms
+n=  16000 lg n=13.97  insert 0.76 us (1.25 swaps)  insert-max 4.24 us (13.81 swaps)  extract 5.99 us (12.81 swaps)  increase-key 2.01 us (2.8 swaps)  build 8.31 ms vs inserts 18.13 ms
+n=  64000 lg n=15.97  insert 0.80 us (1.32 swaps)  insert-max 4.69 us (15.23 swaps)  extract 6.62 us (14.23 swaps)  increase-key 3.02 us (3.85 swaps)  build 33.74 ms vs inserts 88.28 ms
+n= 256000 lg n=17.97  insert 1.00 us (1.26 swaps)  insert-max 5.24 us (17.0 swaps)  extract 7.53 us (16.0 swaps)  increase-key 4.27 us (4.78 swaps)  build 159.94 ms vs inserts 307.56 ms
+Results written to results
